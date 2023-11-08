@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="genericlibraries.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testscripts.CreateUserTest">
+        <methods>
+          <include name="classConfig"/>
+          <include name="classTeardown"/>
+          <include name="methodTeardown"/>
+          <include name="methodConfig"/>
+          <include name="createUserTest"/>
+        </methods>
+      </class> <!-- testscripts.CreateUserTest -->
+      <class name="testscripts.CreateCategoryTest">
+        <methods>
+          <include name="createCategoryTest"/>
+          <include name="classConfig"/>
+          <include name="methodTeardown"/>
+          <include name="classTeardown"/>
+          <include name="methodConfig"/>
+        </methods>
+      </class> <!-- testscripts.CreateCategoryTest -->
+      <class name="testscripts.CreateCourseTest">
+        <methods>
+          <include name="classConfig"/>
+          <include name="methodTeardown"/>
+          <include name="classTeardown"/>
+          <include name="methodConfig"/>
+          <include name="createCourseTest"/>
+        </methods>
+      </class> <!-- testscripts.CreateCourseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
