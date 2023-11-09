@@ -19,7 +19,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class ExcelUtility {
 	private Workbook wb;
 	/**
-	 * This method is used to intialize excel
+	 * This method is used to initialize excel
 	 * @param excelPath
 	 */
 	
