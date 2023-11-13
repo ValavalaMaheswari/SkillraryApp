@@ -12,7 +12,7 @@ import genericlibraries.BaseClass;
 import genericlibraries.IconstantPath;
 	
 
-
+//The test is success
 	public class CreateCourseTest extends BaseClass {
 		
 		@Test
